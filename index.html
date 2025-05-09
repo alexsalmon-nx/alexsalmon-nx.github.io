@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nested Buttons</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background-color: #f0f0f0;
+    }
+    h1 {
+      text-align: center;
+    }
+    .container {
+      margin: 20px auto;
+      padding: 15px;
+      background: white;
+      border: 1px solid #ccc;
+      max-width: 500px;
+    }
+    button {
+      margin: 5px;
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Nested Buttons</h1>
+
+  <div class="container">
+    <button>Click Me</button>
+  </div>
+
+  <section class="container">
+    <div>
+      <button>Click Me</button>
+    </div>
+  </section>
+
+  <article class="container">
+    <header>
+      <h2>Button in Header</h2>
+      <button>Click Me</button>
+    </header>
+  </article>
+
+  <div class="container">
+    <main>
+      <section>
+        <div>
+          <button>Click Me</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <section class="container">
+    <article>
+      <div>
+        <p>Some content here</p>
+        <button>Click Me</button>
+      </div>
+    </article>
+  </section>
+
+  <div class="container">
+    <aside>
+      <div>
+        <button>Click Me</button>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="container">
+    <button>Click Me</button>
+  </footer>
+
+  <div class="container">
+    <nav>
+      <ul>
+        <li>
+          <button>Click Me</button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <section class="container">
+    <div>
+      <div>
+        <div>
+          <button>Click Me</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <fieldset>
+      <legend>Form Controls</legend>
+      <button>Click Me</button>
+    </fieldset>
+  </div>
+</body>
+</html>
